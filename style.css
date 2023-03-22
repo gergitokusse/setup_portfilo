@@ -1,0 +1,9 @@
+.toolbar {
+  color: blueviolet;
+  display: flex;
+}
+
+.content {
+  color: aquamarine;
+  display: inline-block;
+}
