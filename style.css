@@ -1,22 +1,25 @@
-body{
+body {
   background-color: #ece6e6;
 }
-.top-nan{
+
+.top-nan {
   position: absolute;
   width: 1440px;
   height: 72px;
 }
-.item_nav{
-  display: flex;
-  flex-direction: row;
 
+.item_nav {
+  display: flex;
+  flex-direction: column;
 }
-.logo{
-  font-family: 'Poppins';
+
+.logo {
   font-style: normal;
 }
-@media(min-width:375px) {
-  body{
-    background-color: #f37076;
+
+@media (min-width: 375px) {
+  .item_nav {
+    display: flex;
+    flex-direction: row;
   }
 }
