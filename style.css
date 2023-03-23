@@ -1,9 +1,22 @@
-.toolbar {
-  color: blueviolet;
-  display: flex;
+body{
+  background-color: #ece6e6;
 }
+.top-nan{
+  position: absolute;
+  width: 1440px;
+  height: 72px;
+}
+.item_nav{
+  display: flex;
+  flex-direction: row;
 
-.content {
-  color: aquamarine;
-  display: inline-block;
+}
+.logo{
+  font-family: 'Poppins';
+  font-style: normal;
+}
+@media(min-width:375px) {
+  body{
+    background-color: #f37076;
+  }
 }
