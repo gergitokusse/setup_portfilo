@@ -32,7 +32,7 @@
 #home_content {
   background-image:
     url("img/Ellipse 11.png"),
-    url("img/Rectangle 6.png"),   
+    url("img/Rectangle 6.png"),
     url("img/Rectangle\ 4.png"),
     url("img/Ellipse 3.png"),
     url("img/Ellipse\ 5.png"),
@@ -44,7 +44,7 @@
     url("img/Ellipse 5.png");
   background-position:
     19px 90px,
-    9px 15px,    
+    9px 15px,
     214px 110px,
     323px 102px,
     125px 106px,
@@ -91,6 +91,7 @@
   text-decoration-color: #23a3fa;
   text-decoration-thickness: 2px;
 }
+
 footer h3 {
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -123,11 +124,15 @@ footer h3:hover {
   list-style-type: none;
   margin-right: 20px;
 }
-
-.icon:hover { background-color: #23a3fa; }
-@media (min-width: 375px) {
- body{
-  background-color: rgb(248, 241, 241);
- }
+.menu{
+  width: 30px;
+  height: 30px;
 }
 
+.icon:hover { background-color: #23a3fa; }
+
+@media (min-width: 375px) {
+  body {
+    background-color: rgb(248, 241, 241);
+  }
+}
